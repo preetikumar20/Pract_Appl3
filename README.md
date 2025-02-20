@@ -28,6 +28,13 @@ The dataset consists of historical marketing campaign data, including:
 ## Model Development
 - **Model Used:** Logistic Regression, Decision Tree, KNN, SVC
 
+## Model Evaluation and Comparison
+* Logistic Regression (LR) and Support Vector Classifier (SVC) are better model with the highest AUC (0.93). Both models effectively separate customers who will subscribe from those who won’t.
+* SVC is a good model and works well when data is linearly separable, which suggests that the decision boundary in this dataset may be mostly linear.
+* KNN performs well (0.90 AUC), slightly below LR and SVC. Since KNN is a non-parametric model, it might be capturing some non-linear relationships, but it is still slightly behind LR and SVC. KNN can be slower with large datasets.
+* Decision Tree model with AUC = 0.72 is weaker compared to others. It may be because of overfitting to training data (high variance) and require tuning (e.g., pruning, max depth adjustments).
+*  Next Step: Maybe use Random Forest or Gradient Boosting (XGBoost) for better tree-based performance.
+
 ## **Key Findings:**
 - **Top Positive Features from LR Model (Increase Subscription Probability):**
   - Duration of call
@@ -56,7 +63,7 @@ The dataset consists of historical marketing campaign data, including:
    ```bash
    git clone https://github.com/your-repo-url.git
    ```
-2. Navigate to the project folder and launch Jupyter Notebook:  
+2. Navigate to  and launch Jupyter Notebook:  
    ```bash
    jupyter notebook
    ```

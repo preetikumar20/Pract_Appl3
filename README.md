@@ -54,16 +54,14 @@ The dataset consists of historical marketing campaign data, including:
 - **Improve Call Strategy:** Longer call durations increase the likelihood of a positive outcome.
 - **Consider Economic Indicators:** Employment variation and consumer price index trends impact customer decisions.
 
-## Technologies Used
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)
-- Jupyter Notebook
 
 ## How to Run the Notebook
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/your-repo-url.githttps://github.com/preetikumar20/Pract_Appl3/blob/182d3e1f4860a19fe3b98aedbf810780913bc167/prompt_III.ipynb
+   
    ```
-2. Navigate to  and launch Jupyter Notebook:  
+2. Launch Jupyter Notebook:  
    ```bash
    jupyter notebook
    ```
@@ -73,11 +71,8 @@ The dataset consists of historical marketing campaign data, including:
 - Implement additional models (Random Forest) for better accuracy.
 - Deploy the model as a web application for real-time predictions.
 
-## Author
-Preeti Dubey
-
-## License
-This project is open-source and available under the MIT License.
+## Jupyter Notebook Link
+https://github.com/preetikumar20/Pract_Appl3/blob/182d3e1f4860a19fe3b98aedbf810780913bc167/prompt_III.ipynb
 
 
 
